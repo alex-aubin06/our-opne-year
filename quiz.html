@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Notre prochaine date ❤️</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <a href="index.html">Accueil</a>
+      <a href="souvenirs.html">Souvenirs</a>
+      <a href="lettre.html">Lettre</a>
+      <a href="quiz.html">Quiz</a>
+    </nav>
+
+    <section class="quiz-page">
+      <div class="quiz-card" id="question">
+        <h1>Minou ❤️</h1>
+
+        <h2>As-tu envie de faire une date avec moi ? 😇</h2>
+
+        <div class="buttons">
+          <button class="yes-btn" onclick="showForm()">Oui ❤️</button>
+
+          <button
+            class="no-btn"
+            id="noButton"
+            ontouchstart="moveButton()"
+            onclick="moveButton()"
+          >
+            Non 😈
+          </button>
+        </div>
+      </div>
+
+      <div class="quiz-card hidden" id="form">
+        <h1>Parfait mon minou ❤️</h1>
+
+        <p>Choisis notre prochaine sortie 😍</p>
+
+        <h3>Quel resto te tente ?</h3>
+
+        <select id="restaurant">
+          <option>Choisis...</option>
+
+          <option>🥩 Shaker - Lévis</option>
+
+          <option>🍝 Cosmos - Québec</option>
+
+          <option>🍣 Sushi</option>
+
+          <option>🍔 Un petit resto relax</option>
+
+          <option>Autres idées ?</option>
+        </select>
+
+        <h3>Quelle activité après ?</h3>
+
+        <select id="activite">
+          <option>Choisis...</option>
+
+          <option>🍦 Aller manger une crème glacée</option>
+
+          <option>🎬 Aller au cinéma</option>
+
+          <option>🌅 Voir le coucher de soleil</option>
+
+          <option>🚶 Faire une marche ensemble</option>
+
+          <option>Autres idées ?</option>
+        </select>
+
+        <button class="yes-btn" onclick="finishDate()">
+          Confirmer notre date ❤️
+        </button>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

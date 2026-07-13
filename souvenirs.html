@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Nos souvenirs ❤️</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <a href="index.html">Accueil</a>
+      <a href="souvenirs.html">Souvenirs</a>
+      <a href="lettre.html">Lettre</a>
+      <a href="quiz.html">Quiz</a>
+    </nav>
+
+    <section class="page-title">
+      <h1>Nos souvenirs ❤️</h1>
+
+      <p>Une année remplie de moments que je n'oublierai jamais.</p>
+    </section>
+
+    <div class="album">
+      <!-- ZOO -->
+
+      <section class="event">
+        <h2>🦁 Zoo de Granby</h2>
+
+        <p>Une journée remplie de découvertes et de beaux souvenirs.</p>
+
+        <div class="carousel">
+          <button onclick="changePhoto(0, -1)">❮</button>
+
+          <img id="photo0" src="images/zoo1.jpg" />
+
+          <button onclick="changePhoto(0, 1)">❯</button>
+        </div>
+      </section>
+
+      <!-- CAMPING -->
+
+      <section class="event">
+        <h2>🏕️ Camping</h2>
+
+        <p>Nos soirées dehors, nos discussions et nos fous rires.</p>
+
+        <div class="carousel">
+          <button onclick="changePhoto(1, -1)">❮</button>
+
+          <img id="photo1" src="images/camping1.jpg" />
+
+          <button onclick="changePhoto(1, 1)">❯</button>
+        </div>
+      </section>
+
+      <!-- FEQ -->
+
+      <section class="event">
+        <h2>🎤 FEQ - Benson Boone</h2>
+
+        <p>Une soirée incroyable avec toi.</p>
+
+        <div class="carousel">
+          <button onclick="changePhoto(2, -1)">❮</button>
+
+          <img id="photo2" src="images/feq1.jpg" />
+
+          <button onclick="changePhoto(2, 1)">❯</button>
+        </div>
+      </section>
+
+      <section class="event">
+        <h2>Nous deux</h2>
+
+        <p>Je t'aime minou</p>
+
+        <div class="carousel">
+          <button onclick="changePhoto(3, -1)">❮</button>
+
+          <img id="photo3" src="images/gym1.jpg" />
+
+          <button onclick="changePhoto(3, 1)">❯</button>
+        </div>
+      </section>
+
+      <section class="event">
+        <h2>🎃 Halloween</h2>
+
+        <p>Nos moments les plus amusants.</p>
+
+        <div class="carousel">
+          <button onclick="changePhoto(4, -1)">❮</button>
+
+          <img id="photo4" src="images/halloween1.jpg" />
+
+          <button onclick="changePhoto(4, 1)">❯</button>
+        </div>
+      </section>
+
+      <section class="event">
+        <h2>🎄 Noël</h2>
+
+        <p>Un moment magique avec toi.</p>
+
+        <div class="carousel">
+          <button onclick="changePhoto(5, -1)">❮</button>
+
+          <img id="photo5" src="images/noel1.jpg" />
+
+          <button onclick="changePhoto(5, 1)">❯</button>
+        </div>
+      </section>
+
+      <section class="event">
+        <h2>Mexique</h2>
+
+        <p>Notre voyage rempli de soleil.</p>
+
+        <div class="carousel">
+          <button onclick="changePhoto(6, -1)">❮</button>
+
+          <img id="photo6" src="images/mexique1.jpg" />
+
+          <button onclick="changePhoto(6, 1)">❯</button>
+        </div>
+      </section>
+
+      <section class="event">
+        <h2>🤠 Bailey Zimmerman</h2>
+
+        <p>Une soirée parfaite.</p>
+
+        <div class="carousel">
+          <button onclick="changePhoto(7, -1)">❮</button>
+
+          <img id="photo7" src="images/bailey1.jpg" />
+
+          <button onclick="changePhoto(7, 1)">❯</button>
+        </div>
+      </section>
+
+      <section class="event">
+        <h2>🌊 Gaspésie</h2>
+
+        <p>Des paysages incroyables avec toi.</p>
+
+        <div class="carousel">
+          <button onclick="changePhoto(8, -1)">❮</button>
+
+          <img id="photo8" src="images/gaspesie1.jpg" />
+
+          <button onclick="changePhoto(8, 1)">❯</button>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
